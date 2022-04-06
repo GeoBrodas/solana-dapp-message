@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-fuchsia-700 via-violet-900 to-green-500;
+}
+
+.btn {
+  @apply rounded-xl bg-gray-200 p-3 font-bold text-blue-900;
+}
+
+.glass {
+  @apply rounded-md bg-red-300 bg-opacity-40 bg-clip-padding backdrop-blur-sm backdrop-filter;
+}
